@@ -1,8 +1,11 @@
-# Android-ViewPager-Kotlin
+![Android ViewPager Kotlin](https://github.com/AmirJahan/Android-ViewPager-Kotlin/blob/master/Splash.jpg)
+
+
+### Android ViewPager Kotlin
 Android View Pager Tutorial for KotlinAndroid ViewPagers allow users to flip through a number of different pages. If you are familiar with iOS, they are similar to having a Scroll View in iOS where Paging has been enabled. Each view in Android ViewPager makes for one new page of the view pager. Here is a video of how the final project will work:
 
+![View Pager in Android Emulator](https://github.com/AmirJahan/Android-ViewPager-Kotlin/blob/master/ViewPager.gif)
 
-View Pager in Android Emulator
 
 So let's see what do we need to complete this tutorial. Here are the list  of the items, components, codes and classes that you are going to use:
 
@@ -12,7 +15,8 @@ So let's see what do we need to complete this tutorial. Here are the list  of th
 
 So let's get started. The first thing you need to do is adding three layout to your layout folder.
 
-Adding new layout Resource Files.
+![Adding new layout Resource Files](https://github.com/AmirJahan/Android-ViewPager-Kotlin/blob/master/layouts.png)
+
 
 Let's call them:
 * layout_one
@@ -23,7 +27,7 @@ What  you put in the layouts are completely up to you. In my case, I put a  litt
 
 
 
-# layout_one.xml
+#### layout_one.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -47,7 +51,7 @@ What  you put in the layouts are completely up to you. In my case, I put a  litt
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-# layout_two.xml
+#### layout_two.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -71,7 +75,7 @@ What  you put in the layouts are completely up to you. In my case, I put a  litt
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-# layout_three.xml
+#### layout_three.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -96,6 +100,8 @@ What  you put in the layouts are completely up to you. In my case, I put a  litt
 ```
 
 By now, you should have three layouts that look like this:
+
+![The three layouts](https://github.com/AmirJahan/Android-ViewPager-Kotlin/blob/master/pages.jpg)
 
 
 The three layouts for the three views.Now, let's move on to ur Main Activity. The first thing we should do is to store the three layouts in an array. Here is the code for that.
@@ -165,5 +171,5 @@ myViewPager.adapter = MyAdapter(myViews, this@MainActivity)
 ```
 
 And that's about that. You are ready to build and run now. Please keep in mind that the goal of this tutorial was to simplify the process. There are a lot more you can do. For instance, you probably won't have the views ready in your layout and you might want to create them dynamically.
-You can find the project in this GitHub link.
+
 Good luck and happy coding.
